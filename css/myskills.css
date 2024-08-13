@@ -1,0 +1,66 @@
+:root{
+   --lightcyan:#E0FBFC;
+   --lightblue: #C2DFE3;
+   --cadetgray: #9DB4C0;
+   --paynegray: #5C6B73;
+   --gunmetal: #253237;
+}
+
+.header{
+    background-color: var(--gunmetal);
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blist{
+    background-color: var(--paynegray);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:50px;
+}
+
+.button{
+    color:white;
+    background-color: var(--gunmetal);
+    padding: 7px;
+    border-radius: 25px;
+    font-style: normal;
+    }
+
+    .button:hover {
+    background-color:var(--cadetgray);
+    }
+
+.ol{
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.listh{
+    color: var(--lightblue);
+    font-size: 15;
+    text-align:center;
+}
+
+.row1{
+    display:inline-flex;
+    gap:100px;
+    align-items: center;
+    vertical-align: top;
+    align-content: center;
+}
+.code{
+    position: fixed;
+    display: flex;
+    bottom: 25px;
+    right: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--paynegray);
+    font-style: italic;
+    font-size: 15pt;
+}
